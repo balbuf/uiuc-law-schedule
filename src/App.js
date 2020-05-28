@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import courses from './courses.json';
 import { makeStyles } from '@material-ui/core/styles';
 import { useTheme } from '@material-ui/core/styles';
@@ -9,7 +9,6 @@ import Typography from '@material-ui/core/Typography';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Switch from '@material-ui/core/Switch';
@@ -35,8 +34,9 @@ const useStyles = makeStyles((theme) => {
 
     courseList: {
       flexShrink: 1,
-      overflow: 'auto',
+      overflowY: 'auto',
       minHeight: 0,
+      overflowX: 'hidden',
     },
 
     table: {
@@ -63,16 +63,28 @@ const useStyles = makeStyles((theme) => {
 
     credits: {
       fontSize: '125%',
-      padding: '6px !important',
     },
 
     hours: {
-      maxWidth: '75px',
+      maxWidth: '50px',
+      borderLeft: '1px solid #aaa',
+    },
+
+    hoursContainer: {
+      marginTop: '16pt',
+      position: 'relative',
+      width: '100%',
+
+      '& > div': {
+        position: 'absolute',
+        transform: 'translateY(-50%)',
+        textAlign: 'right',
+        right: '6px',
+      },
     },
 
     dayColumn: {
       borderLeft: '1px solid #ccc',
-      paddingRight: '4px',
     },
 
     blocks: {
@@ -87,13 +99,16 @@ const useStyles = makeStyles((theme) => {
 
     dayHeader: {
       height: '16pt',
-      backgroundColor: colors.blueGrey[200],
+      borderBottom: '2px solid #ccc',
+      fontWeight: '500',
+      textAlign: 'center',
     },
 
     session: {
       flexGrow: 1,
       flexBasis: 0,
       height: '100%',
+      margin: '0 4px 0 1px',
     },
 
     paper: {
@@ -104,7 +119,23 @@ const useStyles = makeStyles((theme) => {
     },
 
     footer: {
-      borderTop: '2px solid #333',
+      borderTop: '2px solid #aaa',
+      padding: '8px',
+    },
+
+    footerCaption: {
+      lineHeight: '100%',
+      fontStyle: 'italic',
+      fontWeight: '200',
+    },
+
+    creditsTotal: {
+      fontWeight: '500',
+      padding: '8px',
+      margin: '0 8px',
+      width: '40px',
+      fontSize: '20pt',
+      textAlign: 'right',
     },
   };
 });
@@ -152,11 +183,11 @@ courses.forEach(course => {
 earliest = earliest - (earliest % 30);
 latest = latest + 30 - (latest % 30);
 const total = latest - earliest;
-const halfHourPercentage = 100 / (total / 30);
+const numHalfHours = (total / 30);
+const halfHourPercentage = 100 / numHalfHours;
+const startsOnHour = !(earliest % 60);
 
 function App() {
-  console.log('render');
-
   const classes = useStyles();
   const theme = useTheme();
   const [selected, updateSelected] = useState(new Set());
@@ -164,7 +195,24 @@ function App() {
   function toggle(course) {
     selected[selected.has(course) ? 'delete' : 'add'](course);
     updateSelected(new Set(selected));
+    window.history.replaceState(null, '', '#' + Array.from(selected).map(course => course.crn).join(','));
   }
+
+  const styleLineBg = {
+    backgroundImage: `repeating-linear-gradient(
+      transparent, transparent calc(${halfHourPercentage}% - ${startsOnHour ? 1 : 2}px), #ccc calc(${halfHourPercentage}% - ${startsOnHour ? 1 : 2}px), #ccc ${halfHourPercentage}%,
+      transparent ${halfHourPercentage}%, transparent calc(${halfHourPercentage * 2}% - ${startsOnHour ? 2 : 1}px), #ccc calc(${halfHourPercentage * 2}% - ${startsOnHour ? 2 : 1}px), #ccc ${halfHourPercentage * 2}%)`,
+    backgroundPosition: '0 1px',
+  };
+
+  useEffect(() => {
+    const ids = window.location.hash.substr(1).split(',');
+    console.log(ids);
+    if (!ids.length) {
+      return;
+    }
+    updateSelected(new Set(courses.filter(course => ids.includes(course.crn.toString()))));
+  }, []);
 
   return (
     <>
@@ -176,14 +224,14 @@ function App() {
             <Typography variant="h6"><em>Unofficial</em> Schedule Planner</Typography>
           </Grid>
           <Grid item className={classes.courseList} xs>
-            <TableContainer component={Paper}>
+            <Paper>
               <Table className={classes.table} size="small">
                 <TableHead>
                   <TableRow>
                     <TableCell>Num</TableCell>
                     <TableCell>Course</TableCell>
                     <TableCell>Hrs</TableCell>
-                    <TableCell>X</TableCell>
+                    <TableCell></TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -213,25 +261,32 @@ function App() {
                   ))}
                 </TableBody>
               </Table>
-            </TableContainer>
-          </Grid>
-          <Grid item>
-            <Paper className={classes.footer}>
-              Total Credit Hours Selected:
-                <Typography component="span" variant="h5">
-                  {Array.from(selected).reduce((total, course) => total + course.credits, 0)}
-                </Typography>
             </Paper>
           </Grid>
+          <Grid item container className={classes.footer}>
+            <Grid item xs>
+              <Typography variant="button" component="div">
+                Total Credit Hours Selected:
+              </Typography>
+              <Typography variant="caption" className={classes.footerCaption} component="div">
+                Be sure to account for clinics, journals, externships, TA positions, etc.
+              </Typography>
+            </Grid>
+            <Grid className={classes.creditsTotal}>
+              {Array.from(selected).reduce((total, course) => total + course.credits, 0)}
+            </Grid>
+          </Grid>
         </Grid>
-        <Grid container item xs
-          style={{
-            backgroundImage: `repeating-linear-gradient(transparent, transparent ${halfHourPercentage}%, #ccc ${halfHourPercentage}%, #ccc calc(${halfHourPercentage}% + 1px)`,
-            backgroundPosition: '0 16pt',
-          }}
-        >
-          <Grid container item xs className={classes.hours}>
-            <div className={classes.dayHeader}></div>
+        <Grid container item xs>
+          <Grid container item className={classes.hours}>
+            <Grid item className={classes.hoursContainer}>
+              {Array(numHalfHours).fill().map((nothing, i) => {
+                let hour = Math.floor(earliest / 60) + (i ? Math.floor((startsOnHour ? i : i + 1) / 2) : 0);
+                hour = hour > 12 ? hour - 12 : hour;
+                let min = !(i % 2) === startsOnHour ? '00' : '30';
+                return <div style={{top: `${i * halfHourPercentage}%`}} key={i}>{`${hour}:${min}`}</div>;
+              })}
+            </Grid>
           </Grid>
           {daysOfWeek.map(day => {
             let startTimes = Object.keys(sessions[day]);
@@ -240,13 +295,12 @@ function App() {
             return (
               <Grid item container direction="column" key={day} xs className={classes.dayColumn}>
                 <Grid item className={classes.dayHeader}>{day}</Grid>
-                <Grid item className={classes.blocks} xs>
+                <Grid item className={classes.blocks} xs style={styleLineBg}>
                   {startTimes.map(startTime => (
                     <Grid
                       container
                       className={classes.startTime}
                       key={startTime}
-                      spacing={1}
                       style={{top: `${((startTime - earliest) / total) * 100}%`}}
                       data-start={startTime}
                     >
@@ -257,7 +311,12 @@ function App() {
                             className={classes.paper}
                             title={`${session.course.title}${session.course.note ? ` (${session.course.note})` : ''}`}
                           >
-                            {session.course.title}
+                            <Typography variant="body1">
+                              {session.course.title}
+                            </Typography>
+                            <Typography variant="body2">
+                              {session.course.professor}
+                            </Typography>
                           </Paper>
                         </Grid>
                       ))}
