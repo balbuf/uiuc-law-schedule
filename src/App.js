@@ -195,11 +195,12 @@ function App() {
   const classes = useStyles();
   const theme = useTheme();
   const [selected, updateSelected] = useState(new Set());
+  const exorcist = courses.find(course => course.number === 'Law 666');
 
   function toggle(course) {
     selected[selected.has(course) ? 'delete' : 'add'](course);
     updateSelected(new Set(selected));
-    window.history.replaceState(null, '', `${window.location.pathname}#${Array.from(selected).map(course => course.crn).join(',')}`);
+    window.history.replaceState(null, '', `${window.location.pathname}#${Array.from(selected).map(course => course.crn).filter(Boolean).join(',')}`);
   }
 
   const styleLineBg = {
@@ -220,6 +221,13 @@ function App() {
 
   return (
     <>
+      <div className="glitch glitch--style-1" style={{display: selected.has(exorcist) ? 'block' : 'none'}}>
+        <div className="glitch__img"></div>
+        <div className="glitch__img"></div>
+        <div className="glitch__img"></div>
+        <div className="glitch__img"></div>
+        <div className="glitch__img"></div>
+      </div>
       <CssBaseline/>
       <Grid container className={classes.root} wrap="nowrap">
         <Grid container item xs className={classes.leftPanel} direction="column">

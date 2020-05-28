@@ -90,6 +90,15 @@
     "professor": "Finkin"
   },
   {
+    "number": "Law 666",
+    "title": "Intro to Supernatural Law",
+    "section": "A",
+    "crn": 0,
+    "credits": 3,
+    "time": "8:30-6:45 F",
+    "professor": "Spellman"
+  },
+  {
     "number": "Law 667",
     "title": "Family Law",
     "section": "A",
