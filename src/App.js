@@ -65,6 +65,10 @@ const useStyles = makeStyles((theme) => {
       fontSize: '125%',
     },
 
+    schedule: {
+      minWidth: '1000px',
+    },
+
     hours: {
       maxWidth: '50px',
       borderLeft: '1px solid #aaa',
@@ -217,7 +221,7 @@ function App() {
   return (
     <>
       <CssBaseline/>
-      <Grid container className={classes.root}>
+      <Grid container className={classes.root} wrap="nowrap">
         <Grid container item xs className={classes.leftPanel} direction="column">
           <Grid item className={classes.header}>
             <Typography variant="h4">Illinois Law</Typography>
@@ -277,7 +281,7 @@ function App() {
             </Grid>
           </Grid>
         </Grid>
-        <Grid container item xs>
+        <Grid container item xs className={classes.schedule}>
           <Grid container item className={classes.hours}>
             <Grid item className={classes.hoursContainer}>
               {Array(numHalfHours).fill().map((nothing, i) => {
