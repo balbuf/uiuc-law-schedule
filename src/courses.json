@@ -1,0 +1,453 @@
+[
+  {
+    "number": "Law 605",
+    "title": "Criminal Procedure:  Investigations",
+    "section": "A",
+    "crn": 52173,
+    "credits": 3,
+    "time": "1:30-2:45 MT",
+    "professor": "Leipold"
+  },
+  {
+    "number": "Law 615",
+    "title": "Administrative Law",
+    "section": "A",
+    "crn": 30838,
+    "credits": 3,
+    "time": "10:30-11:45 MT",
+    "professor": "Rowell"
+  },
+  {
+    "number": "Law 629",
+    "title": "Bankruptcy",
+    "section": "A",
+    "crn": 43953,
+    "credits": 3,
+    "time": "1:30-2:45 MT",
+    "professor": "Lawless"
+  },
+  {
+    "number": "Law 633",
+    "title": "Business Associations",
+    "section": "A",
+    "crn": 31955,
+    "credits": 3,
+    "time": "1:30-2:45 WTh",
+    "professor": "Aviram"
+  },
+  {
+    "number": "Law 634",
+    "title": "Securities Law",
+    "section": "A",
+    "crn": 56475,
+    "credits": 4,
+    "time": "4:30-6:10 TW",
+    "professor": "McClane"
+  },
+  {
+    "number": "Law 644",
+    "title": "Copyright Law",
+    "section": "A",
+    "crn": 50131,
+    "credits": 3,
+    "time": "1:30-2:45 ThF",
+    "professor": "Heald"
+  },
+  {
+    "number": "Law 645",
+    "title": "Patent Law",
+    "section": "A",
+    "crn": 30843,
+    "credits": 3,
+    "time": "3:00-4:15 MT",
+    "professor": "Sherkow"
+  },
+  {
+    "number": "Law 647",
+    "title": "Income Taxation",
+    "section": "A",
+    "crn": 31958,
+    "credits": 4,
+    "time": "9:00-10:15 MTW",
+    "professor": "Kaplan"
+  },
+  {
+    "number": "Law 656",
+    "title": "International Law",
+    "section": "A",
+    "crn": 30848,
+    "credits": 3,
+    "time": "3:00-4:15 MT",
+    "professor": "Boyle"
+  },
+  {
+    "number": "Law 662",
+    "title": "Labor Law I",
+    "section": "A",
+    "crn": 33260,
+    "credits": 3,
+    "time": "1:30-2:45 ThF",
+    "professor": "Finkin"
+  },
+  {
+    "number": "Law 667",
+    "title": "Family Law",
+    "section": "A",
+    "crn": 44132,
+    "credits": 3,
+    "time": "4:30-5:45 TW",
+    "professor": "Pea"
+  },
+  {
+    "number": "Law 668",
+    "title": "Decedents' Trusts and Estates",
+    "section": "A",
+    "crn": 30849,
+    "credits": 3,
+    "time": "10:30-11:45 MT",
+    "professor": "Anderson"
+  },
+  {
+    "number": "Law 680",
+    "title": "Professional Responsibility",
+    "section": "A",
+    "crn": 31969,
+    "credits": 3,
+    "time": "1:30-2:45 WTh",
+    "professor": "Kordik"
+  },
+  {
+    "number": "Law 682",
+    "title": "Evidence",
+    "section": "A",
+    "crn": 31960,
+    "credits": 3,
+    "time": "10:30-11:45 WTh",
+    "professor": "Johnson, E."
+  },
+  {
+    "number": "Law 684",
+    "title": "Federal Courts",
+    "section": "A",
+    "crn": 43944,
+    "credits": 4,
+    "time": "10:30-11:45 MTW",
+    "professor": "Sharpe, J."
+  },
+  {
+    "number": "Law 694",
+    "title": "Trial Advocacy",
+    "note": "must be taken with Trial Workshop",
+    "section": "A",
+    "crn": 30855,
+    "credits": 2,
+    "time": "3:00-4:50 Th",
+    "professor": "Stahl"
+  },
+  {
+    "number": "Law 695",
+    "title": "Trial Advocacy Workshop",
+    "note": "must be taken with Law 694 Trial Advocacy",
+    "section": "A",
+    "crn": 33263,
+    "credits": 3,
+    "time": "6:00-8:30 M",
+    "professor": "Stahl"
+  },
+  {
+    "number": "Law 695",
+    "title": "Trial Advocacy Workshop",
+    "note": "must be taken with Law 694 Trial Advocacy",
+    "section": "B",
+    "crn": 35819,
+    "credits": 3,
+    "time": "6:00-8:30 T",
+    "professor": "Stahl"
+  },
+  {
+    "number": "Law 695",
+    "title": "Trial Advocacy Workshop",
+    "note": "must be taken with Law 694 Trial Advocacy",
+    "section": "C",
+    "crn": 35817,
+    "credits": 3,
+    "time": "6:00-8:30 W",
+    "professor": "Stahl"
+  },
+  {
+    "number": "Law 792",
+    "title": "Empirical Methods in Law",
+    "section": "A",
+    "crn": 47597,
+    "credits": 3,
+    "time": "10:30-11:45 MT",
+    "professor": "Lawless/Robbennolt"
+  },
+  {
+    "number": "Law 792",
+    "title": "Immersion Journalism",
+    "note": "held at 336 Greg Hall",
+    "section": "D",
+    "crn": 47682,
+    "credits": 3,
+    "time": "11:00-1:50 F",
+    "professor": "Dash"
+  },
+  {
+    "number": "Law 792",
+    "title": "Oil & Gas Law",
+    "note": "meets September 3rd-October 30th",
+    "section": "P1",
+    "crn": 56765,
+    "credits": 3,
+    "time": "8:20-10:20 ThF",
+    "professor": "Trott"
+  },
+  {
+    "number": "Law 792",
+    "title": "Technical Literacy for Lawyers",
+    "note": "meets September 11th-November 13th",
+    "section": "C1",
+    "crn": 52719,
+    "credits": 2,
+    "time": "9:30-11:50 F",
+    "professor": "Slifer"
+  },
+  {
+    "number": "Law 792",
+    "title": "Real Estate Transactions",
+    "section": "NN",
+    "crn": 65145,
+    "credits": 3,
+    "time": "10:30-11:45 WTh",
+    "professor": "Perkins"
+  },
+  {
+    "number": "Law 792",
+    "title": "Mediation Training",
+    "section": "L1",
+    "crn": 56482,
+    "credits": 3,
+    "time": "5:30-8:30 Th",
+    "professor": "Rincker"
+  },
+  {
+    "number": "Law 792",
+    "title": "Restitution and Unjust Enrichment",
+    "section": "R1",
+    "crn": 57005,
+    "credits": 3,
+    "time": "4:30-5:45 TW",
+    "professor": "Brubaker"
+  },
+  {
+    "number": "Law 792",
+    "title": "Genomics & the Law",
+    "section": "E1",
+    "crn": 52995,
+    "credits": 3,
+    "time": "1:30-2:45 MT",
+    "professor": "Sherkow"
+  },
+  {
+    "number": "Law 792",
+    "title": "Constitutional Law of U.S. Foreign Affairs",
+    "section": "M",
+    "crn": 54578,
+    "credits": 2,
+    "time": "4:30-6:20 T",
+    "professor": "Boyle"
+  },
+  {
+    "number": "Law 792",
+    "title": "Election Law",
+    "section": "I",
+    "crn": 50141,
+    "credits": 2,
+    "time": "10:00-11:50 F",
+    "professor": "Bradley"
+  },
+  {
+    "number": "Law 792",
+    "title": "Ethics, Law, & the Environment",
+    "note": "The Monday session will be dedicated to viewing and discussing environmental films",
+    "section": "D1",
+    "crn": 52767,
+    "credits": 3,
+    "time": "5:00-7:00 M, 3:00-4:15 T",
+    "professor": "Hurd"
+  },
+  {
+    "number": "Law 793",
+    "title": "Advanced Legal Writing:  Appellate Advocacy",
+    "section": "I",
+    "crn": 65146,
+    "credits": 2,
+    "time": "10:00-11:50 Th",
+    "professor": "Christiansen"
+  },
+  {
+    "number": "Law 793",
+    "title": "Advanced Legal Writing:  Appellate Advocacy",
+    "section": "J",
+    "crn": 65147,
+    "credits": 2,
+    "time": "3:00-4:50 W",
+    "professor": "Sanderson"
+  },
+  {
+    "number": "Law 793",
+    "title": "Advanced Legal Writing:  Appellate Advocacy",
+    "section": "K",
+    "crn": 65394,
+    "credits": 2,
+    "time": "10:00-11:50 F",
+    "professor": "Weissler"
+  },
+  {
+    "number": "Law 793",
+    "title": "Advanced Legal Writing:  Appellate Advocacy",
+    "section": "L",
+    "crn": 70486,
+    "credits": 2,
+    "time": "5:00-6:50 W",
+    "professor": "Henderson"
+  },
+  {
+    "number": "Law 793",
+    "title": "CFI:  Interviewing, Counseling, Fact Investigation",
+    "section": "B",
+    "crn": 47599,
+    "credits": 3,
+    "time": "3:00-4:30 WTh",
+    "professor": "Roebuck"
+  },
+  {
+    "number": "Law 794",
+    "title": "Advanced Legal Writing:  Transactional Writing",
+    "section": "B",
+    "crn": 47601,
+    "credits": 2,
+    "time": "1:30-3:20 W",
+    "professor": "Alam"
+  },
+  {
+    "number": "Law 794",
+    "title": "State and Local Taxation",
+    "section": "X",
+    "crn": 65594,
+    "credits": 3,
+    "time": "1:30-2:45 MT",
+    "professor": "Layser"
+  },
+  {
+    "number": "Law 795",
+    "title": "Professional Responsibility in the Criminal Law Context",
+    "section": "A",
+    "crn": 47602,
+    "credits": 3,
+    "time": "10:30-11:45 MT",
+    "professor": "Keenan"
+  },
+  {
+    "number": "Law 796",
+    "title": "Counter-Terrorism Law & Policy",
+    "section": "O",
+    "crn": 66769,
+    "credits": 3,
+    "time": "9:00-10:15 MT",
+    "professor": "Keenan"
+  },
+  {
+    "number": "Law 797",
+    "title": "Introduction to Intellectual Property",
+    "section": "A",
+    "crn": 47604,
+    "credits": 4,
+    "time": "4:30-6:10 MT",
+    "professor": "Augustine"
+  },
+  {
+    "number": "Law 797",
+    "title": "International Intellectual Property",
+    "section": "J",
+    "crn": 58584,
+    "credits": 3,
+    "time": "10:30-11:45 ThF",
+    "professor": "Heald"
+  },
+  {
+    "number": "Law 797",
+    "title": "Patent Litigation",
+    "note": "meets August 27th-October 8th",
+    "section": "B",
+    "crn": 50553,
+    "credits": 2,
+    "time": "5:30-8:50 Th",
+    "professor": "Sendek"
+  },
+  {
+    "number": "Law 797",
+    "title": "Patent Research & Strategy",
+    "note": "meets October 15th-December 3rd",
+    "section": "I",
+    "crn": 58398,
+    "credits": 2,
+    "time": "3:00-6:20 Th",
+    "professor": "Shah"
+  },
+  {
+    "number": "Law 798",
+    "title": "Federal Tax Policy",
+    "section": "B",
+    "crn": 47606,
+    "credits": 3,
+    "time": "3:00-4:50 M",
+    "professor": "Kaplan"
+  },
+  {
+    "number": "Law 798",
+    "title": "Seminar in Higher Education",
+    "section": "C",
+    "crn": 47607,
+    "credits": 2,
+    "time": "3:00-4:50 Th",
+    "professor": "Finkin"
+  },
+  {
+    "number": "Law 798",
+    "title": "Fact Investigation:  Kennedy Assassination",
+    "section": "F",
+    "crn": 47610,
+    "credits": 2,
+    "time": "5:00-6:50 Th",
+    "professor": "Van Hagey"
+  },
+  {
+    "number": "Law 798",
+    "title": "Illinois Constitutional Law and Policy",
+    "section": "TT",
+    "crn": 65623,
+    "credits": 3,
+    "time": "10:00-11:50 Th",
+    "professor": "Szala"
+  },
+  {
+    "number": "Law 798",
+    "title": "Legal Theory",
+    "section": "Z",
+    "crn": 56491,
+    "credits": 2,
+    "time": "3:00-4:50 M",
+    "professor": "Moore"
+  },
+  {
+    "number": "Law 798",
+    "title": "Comparative Criminal Procedure",
+    "section": "BB",
+    "crn": 58400,
+    "credits": 2,
+    "time": "3:00-4:50 M",
+    "professor": "Ross, J."
+  }
+]
