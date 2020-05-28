@@ -195,7 +195,7 @@ function App() {
   function toggle(course) {
     selected[selected.has(course) ? 'delete' : 'add'](course);
     updateSelected(new Set(selected));
-    window.history.replaceState(null, '', '#' + Array.from(selected).map(course => course.crn).join(','));
+    window.history.replaceState(null, '', `${window.location.pathname}#${Array.from(selected).map(course => course.crn).join(',')}`);
   }
 
   const styleLineBg = {
