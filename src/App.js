@@ -258,6 +258,9 @@ function App() {
                         <Typography variant="body2" className={classes.courseTitle}>{course.title}</Typography>
                         <Typography variant="body2">{course.professor}</Typography>
                         <Typography variant="body2" className={classes.courseNote}>{course.time}</Typography>
+                        <Typography variant="body2" className={classes.courseNote}>
+                          CRN: {course.crn}
+                        </Typography>
                         {course.note && <Typography variant="body2" className={classes.courseNote}><em>{course.note}</em></Typography>}
                       </TableCell>
                       <TableCell
