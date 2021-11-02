@@ -1,21 +1,13 @@
 [
   {
     "number": "Law 605",
-    "title": "Criminal Procedure:  Investigations",
+    "title": "Criminal Procedure: Investigations",
     "section": "A",
     "crn": 52173,
     "credits": 3,
-    "time": "1:30-2:45 MT",
-    "professor": "Leipold"
-  },
-  {
-    "number": "Law 615",
-    "title": "Administrative Law",
-    "section": "A",
-    "crn": 30838,
-    "credits": 3,
     "time": "10:30-11:45 MT",
-    "professor": "Rowell"
+    "note": "Online",
+    "professor": "Leipold"
   },
   {
     "number": "Law 629",
@@ -23,7 +15,8 @@
     "section": "A",
     "crn": 43953,
     "credits": 3,
-    "time": "1:30-2:45 MT",
+    "time": "3:00-4:15 MT",
+    "note": "In-person",
     "professor": "Lawless"
   },
   {
@@ -32,17 +25,49 @@
     "section": "A",
     "crn": 31955,
     "credits": 3,
-    "time": "1:30-2:45 WTh",
+    "time": "3:00-4:15 WTh",
+    "note": "In-person; JDs only",
     "professor": "Aviram"
   },
   {
+    "number": "Law 633",
+    "title": "Business Associations",
+    "section": "GRD",
+    "crn": 31957,
+    "credits": 4,
+    "time": "4:30-5:45 WTh",
+    "note": "In-person; graduate students only",
+    "professor": "Aviram"
+  },
+  {
+    "number": "Law 633",
+    "title": "Business Associations",
+    "section": "B",
+    "crn": 54983,
+    "credits": 3,
+    "time": "1:30-2:45 MT",
+    "note": "In-person; JDs and graduate students",
+    "professor": "Sharpe, N."
+  },
+  {
     "number": "Law 634",
-    "title": "Securities Law",
+    "title": "Securities Regulation",
     "section": "A",
     "crn": 56475,
-    "credits": 4,
-    "time": "4:30-6:10 TW",
-    "professor": "McClane"
+    "credits": 3,
+    "time": "10:30-11:45 WTh",
+    "note": "In-person",
+    "professor": "TBA"
+  },
+  {
+    "number": "Law 643",
+    "title": "Trademark/Unfair Competition/Consumer Protection",
+    "section": "A",
+    "crn": 30842,
+    "credits": 3,
+    "time": "10:30-11:20 MTW",
+    "note": "In-person",
+    "professor": "Maggs"
   },
   {
     "number": "Law 644",
@@ -50,7 +75,8 @@
     "section": "A",
     "crn": 50131,
     "credits": 3,
-    "time": "1:30-2:45 ThF",
+    "time": "9:00-10:15 MT",
+    "note": "Online",
     "professor": "Heald"
   },
   {
@@ -59,7 +85,8 @@
     "section": "A",
     "crn": 30843,
     "credits": 3,
-    "time": "3:00-4:15 MT",
+    "time": "1:30-2:45 TW",
+    "note": "In-person",
     "professor": "Sherkow"
   },
   {
@@ -68,7 +95,8 @@
     "section": "A",
     "crn": 31958,
     "credits": 4,
-    "time": "9:00-10:15 MTW",
+    "time": "10:30-11:45 MTW",
+    "note": "In-person",
     "professor": "Kaplan"
   },
   {
@@ -78,6 +106,7 @@
     "crn": 30848,
     "credits": 3,
     "time": "3:00-4:15 MT",
+    "note": "Online",
     "professor": "Boyle"
   },
   {
@@ -86,7 +115,8 @@
     "section": "A",
     "crn": 33260,
     "credits": 3,
-    "time": "1:30-2:45 ThF",
+    "time": "1:30-2:45 WTh",
+    "note": "In-person",
     "professor": "Finkin"
   },
   {
@@ -105,6 +135,7 @@
     "crn": 44132,
     "credits": 3,
     "time": "4:30-5:45 TW",
+    "note": "In-person",
     "professor": "Pea"
   },
   {
@@ -113,8 +144,19 @@
     "section": "A",
     "crn": 30849,
     "credits": 3,
-    "time": "10:30-11:45 MT",
+    "time": "10:30-11:45 ThF",
+    "note": "In-person",
     "professor": "Anderson"
+  },
+  {
+    "number": "Law 673",
+    "title": "Workers Compensation",
+    "section": "A",
+    "crn": 54962,
+    "credits": 2,
+    "time": "5:00-6:50 M",
+    "note": "In-person",
+    "professor": "TBA"
   },
   {
     "number": "Law 680",
@@ -122,7 +164,18 @@
     "section": "A",
     "crn": 31969,
     "credits": 3,
+    "time": "9:00-10:15 WTh",
+    "note": "Online; fulfills PR",
+    "professor": "Kordik"
+  },
+  {
+    "number": "Law 680",
+    "title": "Professional Responsibility",
+    "section": "B",
+    "crn": 31972,
+    "credits": 3,
     "time": "1:30-2:45 WTh",
+    "note": "Online; fulfills PR",
     "professor": "Kordik"
   },
   {
@@ -131,7 +184,8 @@
     "section": "A",
     "crn": 31960,
     "credits": 3,
-    "time": "10:30-11:45 WTh",
+    "time": "9:00-10:15 WTh",
+    "note": "Online",
     "professor": "Johnson, E."
   },
   {
@@ -141,46 +195,107 @@
     "crn": 43944,
     "credits": 4,
     "time": "10:30-11:45 MTW",
+    "note": "Online",
     "professor": "Sharpe, J."
+  },
+  {
+    "number": "Law 692",
+    "title": "State Appellate Prosecutor",
+    "section": "O",
+    "crn": 68780,
+    "credits": 2,
+    "time": "4:30-6:20 M",
+    "note": "In-person; requires registration in both Fall and Spring",
+    "professor": "Robinson"
+  },
+  {
+    "number": "Law 693",
+    "title": "Federal Civil Rights Clinic",
+    "section": "N",
+    "crn": 52178,
+    "credits": 2,
+    "time": "8:30-10:20 T",
+    "note": "In-person only; requires registration in both Fall and Spring",
+    "professor": "Bequette"
+  },
+  {
+    "number": "Law 693",
+    "title": "Family Advocacy Clinic",
+    "section": "R",
+    "crn": 56478,
+    "credits": 5,
+    "time": "1:30-2:45 MW",
+    "note": "In-person only",
+    "professor": "Frydman"
+  },
+  {
+    "number": "Law 693",
+    "title": "Veterans Legal Clinic",
+    "section": "H",
+    "crn": 33122,
+    "credits": 5,
+    "time": "4:30-5:45 MW",
+    "note": "In-person only",
+    "professor": "Curtis"
+  },
+  {
+    "number": "Law 693",
+    "title": "Immigration Law Clinic",
+    "section": "A",
+    "crn": 33266,
+    "credits": 5,
+    "time": "8:50-10:20 MT",
+    "note": "In-person only",
+    "professor": "Aronson"
+  },
+  {
+    "number": "Law 693",
+    "title": "Medical Legal Partnership Clinic",
+    "section": "TBA",
+    "crn": "TBA",
+    "credits": "TBA",
+    "time": "3:00-5:00 W",
+    "note": "In-person only",
+    "professor": "TBA"
   },
   {
     "number": "Law 694",
     "title": "Trial Advocacy",
-    "note": "must be taken with Trial Workshop",
     "section": "A",
     "crn": 30855,
     "credits": 2,
     "time": "3:00-4:50 Th",
+    "note": "In-person; must be taken with Trial Workshop",
     "professor": "Stahl"
   },
   {
     "number": "Law 695",
     "title": "Trial Advocacy Workshop",
-    "note": "must be taken with Law 694 Trial Advocacy",
     "section": "A",
     "crn": 33263,
     "credits": 3,
     "time": "6:00-8:30 M",
+    "note": "In-person; must be taken with Trial Advocacy",
     "professor": "Stahl"
   },
   {
     "number": "Law 695",
     "title": "Trial Advocacy Workshop",
-    "note": "must be taken with Law 694 Trial Advocacy",
     "section": "B",
     "crn": 35819,
     "credits": 3,
     "time": "6:00-8:30 T",
+    "note": "In-person; must be taken with Trial Advocacy",
     "professor": "Stahl"
   },
   {
     "number": "Law 695",
     "title": "Trial Advocacy Workshop",
-    "note": "must be taken with Law 694 Trial Advocacy",
     "section": "C",
     "crn": 35817,
     "credits": 3,
     "time": "6:00-8:30 W",
+    "note": "In-person; must be taken with Trial Advocacy",
     "professor": "Stahl"
   },
   {
@@ -190,36 +305,27 @@
     "crn": 47597,
     "credits": 3,
     "time": "10:30-11:45 MT",
+    "note": "In-person; fulfills ULW",
     "professor": "Lawless/Robbennolt"
   },
   {
     "number": "Law 792",
-    "title": "Immersion Journalism",
-    "note": "held at 336 Greg Hall",
-    "section": "D",
-    "crn": 47682,
-    "credits": 3,
-    "time": "11:00-1:50 F",
-    "professor": "Dash"
-  },
-  {
-    "number": "Law 792",
     "title": "Oil & Gas Law",
-    "note": "meets September 3rd-October 30th",
     "section": "P1",
     "crn": 56765,
     "credits": 3,
     "time": "8:20-10:20 ThF",
+    "note": "In-person; meets September 9th-November 5th",
     "professor": "Trott"
   },
   {
     "number": "Law 792",
     "title": "Technical Literacy for Lawyers",
-    "note": "meets September 11th-November 13th",
     "section": "C1",
     "crn": 52719,
     "credits": 2,
     "time": "9:30-11:50 F",
+    "note": "In-person; meets September 10th-November 12th",
     "professor": "Slifer"
   },
   {
@@ -229,6 +335,7 @@
     "crn": 65145,
     "credits": 3,
     "time": "10:30-11:45 WTh",
+    "note": "Online",
     "professor": "Perkins"
   },
   {
@@ -237,17 +344,9 @@
     "section": "L1",
     "crn": 56482,
     "credits": 3,
-    "time": "5:30-8:30 Th",
+    "time": "3:00-4:15 MW",
+    "note": "In-person",
     "professor": "Rincker"
-  },
-  {
-    "number": "Law 792",
-    "title": "Restitution and Unjust Enrichment",
-    "section": "R1",
-    "crn": 57005,
-    "credits": 3,
-    "time": "4:30-5:45 TW",
-    "professor": "Brubaker"
   },
   {
     "number": "Law 792",
@@ -255,17 +354,9 @@
     "section": "E1",
     "crn": 52995,
     "credits": 3,
-    "time": "1:30-2:45 MT",
+    "time": "9:00-10:15 TW",
+    "note": "In-person; fulfills ULW",
     "professor": "Sherkow"
-  },
-  {
-    "number": "Law 792",
-    "title": "Constitutional Law of U.S. Foreign Affairs",
-    "section": "M",
-    "crn": 54578,
-    "credits": 2,
-    "time": "4:30-6:20 T",
-    "professor": "Boyle"
   },
   {
     "number": "Law 792",
@@ -274,17 +365,58 @@
     "crn": 50141,
     "credits": 2,
     "time": "10:00-11:50 F",
+    "note": "In-person",
     "professor": "Bradley"
   },
   {
     "number": "Law 792",
-    "title": "Ethics, Law, & the Environment",
-    "note": "The Monday session will be dedicated to viewing and discussing environmental films",
-    "section": "D1",
-    "crn": 52767,
-    "credits": 3,
-    "time": "5:00-7:00 M, 3:00-4:15 T",
-    "professor": "Hurd"
+    "title": "Animal Law",
+    "section": "C",
+    "crn": 47612,
+    "credits": 2,
+    "time": "4:30-6:20 W",
+    "note": "In-person",
+    "professor": "Bilz"
+  },
+  {
+    "number": "Law 792",
+    "title": "Spanish for Lawyers",
+    "section": "E",
+    "crn": 48139,
+    "credits": 2,
+    "time": "1:30-3:20 Th",
+    "note": "In-person",
+    "professor": "Paez-Rodriguez"
+  },
+  {
+    "number": "Law 792",
+    "title": "Aircraft Finance",
+    "section": "X1",
+    "crn": 59013,
+    "credits": 1,
+    "time": "",
+    "note": "In-person",
+    "professor": "Bekemeyer"
+  },
+  {
+    "number": "Law 792",
+    "title": "Poverty and the Law",
+    "section": "J",
+    "crn": 50180,
+    "credits": 2,
+    "time": "6:00-7:50 Th",
+    "note": "In-person",
+    "professor": "Kolb"
+  },
+  {
+    "number": "Law 792",
+    "title": "Land Use Planning",
+    "section": "K",
+    "crn": 50559,
+    "credits": 2,
+    "time": "3:00-4:50 T",
+    "note": "In-person",
+    "professor": "LeRoy, B."
   },
   {
     "number": "Law 793",
@@ -292,7 +424,8 @@
     "section": "I",
     "crn": 65146,
     "credits": 2,
-    "time": "10:00-11:50 Th",
+    "time": "1:30-3:20 Th",
+    "note": "Online; fulfills ULW",
     "professor": "Christiansen"
   },
   {
@@ -302,6 +435,7 @@
     "crn": 65147,
     "credits": 2,
     "time": "3:00-4:50 W",
+    "note": "In-person; fulfills ULW",
     "professor": "Sanderson"
   },
   {
@@ -311,6 +445,7 @@
     "crn": 65394,
     "credits": 2,
     "time": "10:00-11:50 F",
+    "note": "Online; fulfills ULW",
     "professor": "Weissler"
   },
   {
@@ -320,16 +455,38 @@
     "crn": 70486,
     "credits": 2,
     "time": "5:00-6:50 W",
+    "note": "In-person; fulfills ULW",
     "professor": "Henderson"
   },
   {
     "number": "Law 793",
-    "title": "CFI:  Interviewing, Counseling, Fact Investigation",
+    "title": "CFI: Interviewing, Counseling, Fact Investigation",
     "section": "B",
     "crn": 47599,
     "credits": 3,
-    "time": "3:00-4:30 WTh",
+    "time": "3:00-4:30 TW",
+    "note": "In-person with online exercises",
     "professor": "Roebuck"
+  },
+  {
+    "number": "Law 793",
+    "title": "Family Law Practice",
+    "section": "C",
+    "crn": 50134,
+    "credits": 2,
+    "time": "4:30-6:20 M",
+    "note": "In-person",
+    "professor": "Blockman"
+  },
+  {
+    "number": "Law 793",
+    "title": "Negotiation Skills and Strategies",
+    "section": "H",
+    "crn": 63381,
+    "credits": 3,
+    "time": "3:00-5:50 M",
+    "note": "In-person",
+    "professor": "Bilz"
   },
   {
     "number": "Law 794",
@@ -337,17 +494,29 @@
     "section": "B",
     "crn": 47601,
     "credits": 2,
-    "time": "1:30-3:20 W",
+    "time": "1:30-3:20 T",
+    "note": "In-person; fulfills ULW",
     "professor": "Alam"
   },
   {
     "number": "Law 794",
-    "title": "State and Local Taxation",
-    "section": "X",
-    "crn": 65594,
-    "credits": 3,
-    "time": "1:30-2:45 MT",
-    "professor": "Layser"
+    "title": "Doing Business in Japan",
+    "section": "E",
+    "crn": 50145,
+    "credits": 1,
+    "time": "",
+    "note": "Online; meets October 5th-October 21st",
+    "professor": "Yabe/Newman"
+  },
+  {
+    "number": "Law 794",
+    "title": "Climate Change and Corporate Accountability",
+    "section": "A",
+    "crn": 47600,
+    "credits": 2,
+    "time": "3:00-4:50 Th",
+    "note": "In-person; fulfills ULW",
+    "professor": "TBA"
   },
   {
     "number": "Law 795",
@@ -355,8 +524,19 @@
     "section": "A",
     "crn": 47602,
     "credits": 3,
-    "time": "10:30-11:45 MT",
+    "time": "9:00-10:15 MT",
+    "note": "In-person; fulfills PR",
     "professor": "Keenan"
+  },
+  {
+    "number": "Law 795",
+    "title": "Military Justice",
+    "section": "C",
+    "crn": 48151,
+    "credits": 3,
+    "time": "1:30-2:45 TW",
+    "note": "In-person",
+    "professor": "Wexler"
   },
   {
     "number": "Law 796",
@@ -364,8 +544,19 @@
     "section": "O",
     "crn": 66769,
     "credits": 3,
-    "time": "9:00-10:15 MT",
+    "time": "10:30-11:45 MT",
+    "note": "In-person",
     "professor": "Keenan"
+  },
+  {
+    "number": "Law 796",
+    "title": "Immigration Law Seminar",
+    "section": "D",
+    "crn": 50558,
+    "credits": 2,
+    "time": "6:00-7:50 W",
+    "note": "Online; fulfills ULW",
+    "professor": "Petty"
   },
   {
     "number": "Law 797",
@@ -374,36 +565,48 @@
     "crn": 47604,
     "credits": 4,
     "time": "4:30-6:10 MT",
+    "note": "In-person",
     "professor": "Augustine"
   },
   {
     "number": "Law 797",
-    "title": "International Intellectual Property",
-    "section": "J",
-    "crn": 58584,
-    "credits": 3,
-    "time": "10:30-11:45 ThF",
-    "professor": "Heald"
-  },
-  {
-    "number": "Law 797",
     "title": "Patent Litigation",
-    "note": "meets August 27th-October 8th",
     "section": "B",
     "crn": 50553,
     "credits": 2,
-    "time": "5:30-8:50 Th",
+    "time": "",
+    "note": "Online",
     "professor": "Sendek"
   },
   {
     "number": "Law 797",
     "title": "Patent Research & Strategy",
-    "note": "meets October 15th-December 3rd",
     "section": "I",
     "crn": 58398,
     "credits": 2,
     "time": "3:00-6:20 Th",
+    "note": "In-person; meets October 14th-December 2nd",
     "professor": "Shah"
+  },
+  {
+    "number": "Law 797",
+    "title": "Traditional Knowledge and Folklore in Intellectual Property",
+    "section": "F",
+    "crn": 52770,
+    "credits": 1,
+    "time": "",
+    "note": "In-person; meets October 4th-October 14th",
+    "professor": "Kakooza"
+  },
+  {
+    "number": "Law 798",
+    "title": "Labor Arbitration",
+    "section": "A",
+    "crn": 47605,
+    "credits": 2,
+    "time": "3:00-4:50 Th",
+    "note": "In-person",
+    "professor": "Finkin"
   },
   {
     "number": "Law 798",
@@ -412,25 +615,8 @@
     "crn": 47606,
     "credits": 3,
     "time": "3:00-4:50 M",
+    "note": "In-person; fulfills ULW",
     "professor": "Kaplan"
-  },
-  {
-    "number": "Law 798",
-    "title": "Seminar in Higher Education",
-    "section": "C",
-    "crn": 47607,
-    "credits": 2,
-    "time": "3:00-4:50 Th",
-    "professor": "Finkin"
-  },
-  {
-    "number": "Law 798",
-    "title": "Fact Investigation:  Kennedy Assassination",
-    "section": "F",
-    "crn": 47610,
-    "credits": 2,
-    "time": "5:00-6:50 Th",
-    "professor": "Van Hagey"
   },
   {
     "number": "Law 798",
@@ -439,6 +625,7 @@
     "crn": 65623,
     "credits": 3,
     "time": "10:00-11:50 Th",
+    "note": "In-person; fulfills ULW",
     "professor": "Szala"
   },
   {
@@ -447,16 +634,8 @@
     "section": "Z",
     "crn": 56491,
     "credits": 2,
-    "time": "3:00-4:50 M",
-    "professor": "Moore"
-  },
-  {
-    "number": "Law 798",
-    "title": "Comparative Criminal Procedure",
-    "section": "BB",
-    "crn": 58400,
-    "credits": 2,
-    "time": "3:00-4:50 M",
-    "professor": "Ross, J."
+    "time": "3:30-5:20 T",
+    "note": "Online; will be co-taught with the University of Pennsylvania",
+    "professor": "Katz/Moore"
   }
 ]
