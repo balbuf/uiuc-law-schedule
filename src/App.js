@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => {
     },
 
     leftPanel: {
-      maxWidth: '300px',
+      maxWidth: '325px',
       height: '100%',
     },
 
@@ -288,7 +288,7 @@ function App() {
               </Typography>
             </Grid>
             <Grid className={classes.creditsTotal}>
-              {Array.from(selected).reduce((total, course) => total + course.credits, 0)}
+              {Array.from(selected).reduce((total, course) => total + (Number.isInteger(course.credits) ? course.credits : 0), 0)}
             </Grid>
           </Grid>
         </Grid>
